@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_item_listentomusic"
+        android:title="Musica"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_music_note_24"
+        />
+    <item
+        android:id="@+id/busqueda"
+        android:title="Busqueda"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_search_24"/>
+    <item
+        android:id="@+id/action_item2"
+        android:title="Menu"
+        android:icon="@drawable/ic_baseline_menu_24"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/actionbtn_cardboard"
+                android:title="Cardboard" />
+            <item
+                android:id="@+id/actionbtn_inicios"
+                android:title="Inicios" />
+            <item
+                android:id="@+id/actionbtn_paginaprincipal"
+                android:title="Pagina principal" />
+            <item
+                android:id="@+id/actionbtn_musica"
+                android:title="Musica"/>
+        </menu>
+    </item>
+</menu>
